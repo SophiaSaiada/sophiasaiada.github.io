@@ -25,6 +25,8 @@ module.exports = {
       {
         name: "Gödel",
         image: "godel.gif",
+        background:
+          "radial-gradient(farthest-corner, hsl(307 66% 26% / 1), transparent), radial-gradient(ellipse at bottom, hsl(0deg 86% 13%), hsl(302.65deg 28% 25%))",
         description: `
         An interpreted programming language that I developed as a final project for a bachelor's degree.  
         Written in Kotlin and its syntax resembles Kotlin's one.  
@@ -34,30 +36,29 @@ module.exports = {
         tags: ["Kotlin", "Meta Programming", "Algorithms"]
       },
       {
+        name: "Excel Clone",
+        image: "excel.gif",
+        background:
+          "radial-gradient(farthest-corner, hsl(142 66% 22% / 1), transparent), radial-gradient(ellipse at bottom, hsl(174 86% 26% / 1), hsl(121 28% 22% / 1))",
+        description: `
+        TODO.
+Check out a live demo <a target="_blank" href="https://excel.sophies.dev/">here</a>.
+        `,
+        url: "https://github.com/SophiaSaiada/react-excel",
+        tags: ["React", "Data Structures", "Algorithms"]
+      },
+      {
         name: "vue-conversational-form",
         image: "vue-conversational-form.gif",
+        background:
+          "radial-gradient(farthest-corner, hsl(263 87% 52% / 1), transparent), radial-gradient(ellipse at bottom, hsl(222 66% 33% / 1), #433d6c)",
         description: `
         A Vue.js component that turns web forms into conversations.
         It's an implementation of <a target="_blank" href="https://github.com/space10-community/conversational-form">another open-source project</a> as Vue's Higher-Order-Component.
         Check out a live demo <a target="_blank" href="https://sophies.dev/vue-conversational-form/">here</a>.
         `,
         url: "https://github.com/SophiaSaiada/vue-conversational-form",
-        stars: 48,
-        tags: ["Vue.js", "Front-End"]
-      },
-      {
-        name: "vue-scala-calculator",
-        image: "vue-scala-calculator.gif",
-        description: `
-        A basic math expressions parser and evaluator.
-It displays the AST (Abstract Syntax Tree) of the expression, and then evaluates each sub-tree in DFS order.
-The algorithms that parse and evaluate the expressions are written in Scala (and exposed to Vue via Scala.js).
-The calculator UI and the AST-viewer are written in Vue.js.
-It was, in fact, the base for Gödel, as both projects parse and evaluate expressions.
-Check out a live demo <a target="_blank" href="https://sophies.dev/vue-scala-calculator/">here</a>.
-        `,
-        url: "https://github.com/SophiaSaiada/vue-scala-calculator",
-        tags: ["Scala", "Vue.js", "Algorithms"]
+        tags: ["🌟 48 GitHub Stars", "Vue.js", "Front-End"]
       }
     ]
   },
